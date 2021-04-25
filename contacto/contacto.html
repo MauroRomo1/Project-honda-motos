@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto / Honda Motos Argentinas</title>
+    <!--- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS Main -->
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/styles/table.css"
+      media="screen and (max-width: 767px)"
+    />
+  </head>
+  <body>
+    <!-- header inicio -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white" id="header-nav">
+        <!-- header container inicio -->
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <a href="/index.html" class="navbar-brand">
+              <img class="header-logo" src="/images/Logo-honda-largo.png" alt="header Logo Honda">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto d-flex align-items-center p-2">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Motos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/error-404.html">Recomendaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/contacto/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/about-us.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <button class="button-gen btn btn-danger" type="button" data-toggle="modal" data-target="#modal-sub">Suscribete</button>
+              </li>
+              <li class="d-flex justify-content-between">
+                <a href="https://www.facebook.com/HondaMotorArgentina">
+                 <i class="icon-red bi-header bi-facebook text-danger"></i>
+                </a>
+                <a href="https://www.instagram.com/hondamotosargentina/">
+                 <i class="icon-red bi-header bi-instagram text-danger"></i>
+                </a>
+                <a href="https://twitter.com/hondaargentina/">
+                 <i class="icon-red bi-header bi-twitter text-danger"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- header container fin -->
+    </header>
+    <!-- header fin -->
+    <!-- main inicio -->
+    <main>
+      <div class="embed-container">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1144738925373!2d-65.24321968441198!3d-26.836311096486885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c89ac5b6713%3A0x5f7f67d9132a9bc3!2sYuhmak!5e0!3m2!1ses-419!2sar!4v1618738754765!5m2!1ses-419!2sar"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <h4 class="title-information text-center text-uppercase text-muted p-3">Las concesionaria mas cercana a tu ubicacion<i class="bi bi-geo-alt-fill ml-1"></i></h4>
+      <hr>
+      <div class="container">
+       <h5 class="title-information text-center text-uppercase p-3">contáctate con la concesionarias mas cercanas <i class="bi bi-telephone-outbound-fill mr-1"></i></h5>
+
+      <!-- Formulario de contacto inicio -->
+      <form>
+        <div class="container">
+        <div class="form-group row">
+          <label for="validationDefault01" class="col-sm-2 col-form-label"><i class="bi bi-person-circle mr-1"></i>Ponga su Nombre:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Miguel Morales" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="validationDefault02" class="col-sm-2 col-form-label"><i class="bi bi-envelope-fill mr-1"></i>Ingrese tu Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="validationDefault02" placeholder="MiguelPiola@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"><i class="bi bi-chat-text-fill mr-1"></i>Deje su comentario o consulta aquí</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" placeholder="Me gustaria saber..." required></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">Acepta los términos y condiciones.</label>
+          </div>
+        </div>
+        <button class="button-gen btn btn-danger mb-4" type="submit">Envíar consulta </button>
+      </form>
+      <!-- formulario de contacto fin -->
+      </div>
+        </div>
+    </main>
+    <!-- mian fin -->
+    <!-- Footer Inicio-->
+    <footer class="page-footer font-small indigo">
+      <div class="container-fluid">
+
+        <!--Grid Row Inicio-->
+        <div class="row text-center text-white d-flex justify-content-center pt-5 mb-3">
+
+          <!--Grid column-->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a class="text-white text-decoration-none" href="/index.html">Inicio</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a class="text-white text-decoration-none" href="#">Motos</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a class="text-white text-decoration-none" href="/contacto/contacto.html">Contacto</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a class="text-white text-decoration-none" href="/about-us.html">Nosotros</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a class="text-white text-decoration-none" data-toggle="modal" data-target="#modal-sub">Suscribirse</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <div class="row d-flex text-center text-white justify-content-center mb-md-0 mb-4">
+
+          <!--Grid column-->
+          <div class="col-md-8 col-12 mt-5">
+            <p>
+               El poder de los sueños (The Power of Dreams) es el slogan global
+               de Honda y, probablemente, el más conocido en el mundo entero.
+               Inspirado en el pensamiento del fundador de la Compañía, Soichiro
+               Honda, ingeniero e investigador incansable, representa la
+               filosofía que ha guiado a la marca desde sus inicios: creer y
+               perseguir visiones que parecen imposibles es lo que hace posible
+               la innovación y el progreso tecnológico y social.
+            </p>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        <div class="row pb-3">
+          <!--Grid column-->
+          <div class="col-md-12 d-flex justify-content-center">
+            <div class="mb-5 flex-center">
+              <a href="https://www.facebook.com/HondaMotorArgentina/?fref=ts" class="fb-ic">
+                <i class="icon-red bi-footer bi-facebook fa-lg text-muted mr-4"> </i>
+              </a>
+              <a href="https://www.instagram.com/hondamotosargentina/" class="fb-ic">
+                <i class="icon-red bi-footer bi-instagram fa-lg text-muted mr-4"> </i>
+              </a>
+              <a href="https://twitter.com/hondaargentina/" class="fb-ic">
+                <i class="icon-red bi-footer bi-twitter fa-lg text-muted mr-4"> </i>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!--Footer links-->
+
+      <!--Copyright-->
+      <div class="footer-copyright text-muted text-center py-3">© 2020 Copyright:
+        <a class="text-muted" href="https://www.honda.com.ar/copyright.php">(c) 2021 Honda Motor de Argentina S.A. - Todos los derechos reservados.</a>
+      </div>
+      <!--Copyright-->
+    </footer>
+    <!--Footer Fin-->
+
+    <!-- Modal inicio -->
+      <div
+      class="modal fade"
+      id="modal-sub"
+      data-backdrop="static"
+      data-keyboard="false"
+      tab-index="1"
+      aria-labelledby="modal-sub"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img
+              class="logo-modal-sub"
+              src="/images/Logo-modal-sub.png"
+              alt=""/>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-title text-center p-3">CLUB DE HONDA MOTOS ARGENTINA</h5>
+            <form class="needs-validation">
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" placeholder="Ingresa tu Nombre" required/>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" placeholder="Ingresa tu Apellido" required/>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" placeholder="Ingresa tu Email" required/>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group form-check">
+               <input type="checkbox" class="form-check-input" id="exampleCheck1" required/>
+               <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones.</label>
+              </div>
+              <div class="form-group form-check">
+               <input type="checkbox" class="form-check-input" id="exampleCheck1" required/>
+               <label class="form-check-label" for="exampleCheck1">Acepto recibir novedades por mail.</label>
+              </div>
+             </div>
+              <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+               <button type="submit" class="btn btn-danger">Suscribirse</button>
+              </div>
+           </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal fin -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
